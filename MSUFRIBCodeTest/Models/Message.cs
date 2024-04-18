@@ -7,7 +7,7 @@ namespace MSUFRIBCodeTest.Models
         public int Id { get; set; }
         public string? MessageBody { get; set; }
 
-        [DataType(DataType.Date)]
+        [DataType(DataType.DateTime)]
         public DateTime SentDate { get; set; }
     }
 }

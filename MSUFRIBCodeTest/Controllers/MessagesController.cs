@@ -58,6 +58,7 @@ namespace MSUFRIBCodeTest.Controllers
         {
             if (ModelState.IsValid)
             {
+                message.SentDate = DateTime.Now;
                 _context.Add(message);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

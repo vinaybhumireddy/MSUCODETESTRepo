@@ -32,6 +32,6 @@ body {
 .navbar-light .navbar-brand {
     color: rgb(235 232 232 / 90%) !important;
 }
-.msu-btn {
-    color: #18453b !important;
+.msu-btn, .btn-primary {
+    background-color: #18453b !important;
 }
