@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MSUFRIBCodeTest/obj/Debug/net8.0/ref/MSUFRIBCodeTest.dll
+/MSUFRIBCodeTest/obj/Debug/net8.0/refint/MSUFRIBCodeTest.dll
+/MSUFRIBCodeTest/bin/Debug/net8.0/MSUFRIBCodeTest.dll
+/MSUFRIBCodeTest/bin/Debug/net8.0/MSUFRIBCodeTest.exe
+/MSUFRIBCodeTest/bin/Debug/net8.0/MSUFRIBCodeTest.pdb
+/MSUFRIBCodeTest/obj/Debug/net8.0/apphost.exe
+/MSUFRIBCodeTest/obj/Debug/net8.0/MSUFRIBCodeTest.AssemblyInfo.cs
+/MSUFRIBCodeTest/obj/Debug/net8.0/MSUFRIBCodeTest.AssemblyInfoInputs.cache
+/MSUFRIBCodeTest/obj/Debug/net8.0/MSUFRIBCodeTest.csproj.FileListAbsolute.txt
+/MSUFRIBCodeTest/obj/Debug/net8.0/MSUFRIBCodeTest.dll
+/MSUFRIBCodeTest/obj/Debug/net8.0/MSUFRIBCodeTest.pdb
+/MSUFRIBCodeTest/obj/Debug/net8.0/MSUFRIBCodeTest.sourcelink.json
