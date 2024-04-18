@@ -10,16 +10,11 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="MessageBody" class="control-label"></label>
-                <input type="textarea" asp-for="MessageBody" class="form-control" />
-                <span asp-validation-for="MessageBody" class="text-danger"></span>
+                <textarea asp-for="MessageBody" rows="5" cols="40" class="form-control" placeholder="Enter a meesage here"></textarea>
+                <span asp-validation-for="MessageBody" class="text-danger" ></span>
             </div>
-            <div class="form-group">
-                <label asp-for="SentDate" class="control-label"></label>
-                <input asp-for="SentDate" class="form-control" />
-                <span asp-validation-for="SentDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
+            <div class="form-group" style="text-align: center !important">
+                <br />
                 <input type="submit" value="Send message" class="btn btn-primary msu-btn" />
             </div>
         </form>
