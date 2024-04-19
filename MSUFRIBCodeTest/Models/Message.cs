@@ -1,13 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MSUFRIBCodeTest.Models
+namespace MSUFRIBCodeTest.Models;
+public class Message
 {
-    public class Message
-    {
-        public int Id { get; set; }
-        public string? MessageBody { get; set; }
+    public int Id { get; set; }
+    public string? MessageBody { get; set; }
 
-        [DataType(DataType.DateTime)]
-        public DateTime SentDate { get; set; }
-    }
+    [DataType(DataType.DateTime)]
+    public DateTime SentDate { get; set; }
 }
+
