@@ -3,27 +3,23 @@
 @{
     ViewData["Title"] = "Details";
 }
-
-
 <div>
-    <h4>Message:</h4>
-    <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MessageBody):
+        <dt class = "col-sm-1">
+            @Html.DisplayName("Message"):
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-11">
             @Html.DisplayFor(model => model.MessageBody)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SentDate):
+        <dt class = "col-sm-1">
+            @Html.DisplayName("Sent"):
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-11">
             @Html.DisplayFor(model => model.SentDate)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="msu-link">Edit</a> |
+    <a asp-action="Index" class="msu-link">Back to List</a>
 </div>
