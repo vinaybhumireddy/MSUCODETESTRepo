@@ -5,9 +5,14 @@
 }
 @foreach (var item in Model) {
     <a asp-action="Details" asp-route-id="@item.Id" class="msu-link">
-        <div class="div-message">
-            @Html.DisplayFor(modelItem => item.MessageBody)
+        <div class="div-message-row">
+            <div class="div-message">
+                @Html.DisplayFor(modelItem => item.MessageBody)
+                <br />
+                <br />
+            </div>
+            <div class="div-sent"> Sent:  @Html.DisplayFor(modelItem => item.SentDate)</div>
         </div>
-        <div class="div-sent"> Sent:  @Html.DisplayFor(modelItem => item.SentDate)</div>
+        <br />
     </a>
 }
